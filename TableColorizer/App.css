@@ -1,0 +1,32 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-div{
+  display: flex;
+  max-width: 30vmax;
+  width: 20vmax;
+  margin: 4vmax 4vmax;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.boaed{
+  height: 5vmax;
+  border: 2px solid grey;
+  width: 5vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffffff;
+}
+.inputandbtn{
+  display: flex;
+  flex-direction: column;
+}
+button{
+  display: flex;
+  max-width: 8vmax;
+}
